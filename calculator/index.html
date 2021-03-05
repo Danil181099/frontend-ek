@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+   <div class="container">
+    <h2 class="title"> Решение задачи по микроэкономике </h2>
+       <h3 class="task"> Определите ВВП, исчисленный производственным методом, если:
+           рыночная цена выпущенной продукции - <b>P</b>; текущие материальные издержки - <b>М</b>; амортизационные
+           отчисления - <b>А</b>; косвенные налоги на товары и услуги - <b>Н</b>; государственные субсидии
+           на их производство - <b>С</b>.</h3>
+      <div class="task-content">
+       <h3> P:</h3><input id="p" value="" autocomplete="off">
+       <h3> M:</h3><input id="m" value="" autocomplete="off">
+       <h3> A:</h3><input id="a" value="" autocomplete="off">
+       <h3> H:</h3><input id="n" value="" autocomplete="off">
+       <h3> C:</h3><input id="c" value="" autocomplete="off">
+      </div>
+          <div class="task-text">
+          <h3 class="formula">
+              ВВП = ΣВДС + Н - С, где
+              ΣВДС - сумма валовой добавленной стоимости в основных ценах всех секторов или
+              отраслей экономики;
+          </h3>
+          <h3> Добавленная стоимость – это валовая продукция предприятия (или рыночная цена
+              выпущенной продукции) за минусом текущих материальных издержек, но с включением в
+              неё отчислений на амортизацию (так как основные фонды предприятия принимают
+              участие в создании новой стоимости производимой продукции). </h3>
+          <h3> ВВП:</h3> <p id="res"></p></div>
+       <div class="button">
+           <button id="btn"> click </button>
+       </div>
+
+
+   </div>
+<script src="js.js"></script>
+</body>
+</html>
