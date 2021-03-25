@@ -1,0 +1,16 @@
+* {
+    font-size: 30px;
+    background: blanchedalmond;
+}
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: justify;
+}
+input {
+    width: 200px;
+    text-align: center;
+}

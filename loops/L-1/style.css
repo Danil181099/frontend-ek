@@ -1,0 +1,33 @@
+* {
+    font-size: 30px;
+    background: blanchedalmond;
+}
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+.main-content
+{
+    display: flex;
+    justify-content: space-around;
+}
+button {
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    background: brown;
+    width: 160px;
+    height: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    text-align: justify;
+}
+input {
+    font-size: 20px;
+}
